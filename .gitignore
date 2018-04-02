@@ -1,4 +1,5 @@
 target/
+build/
 logs/*
 !.gitkeep
 app/static/
@@ -14,6 +15,7 @@ _ide_helper.php
 *.iml
 site.conf
 .idea
+.gradle
 *.svn
 *.bat
 *.json
