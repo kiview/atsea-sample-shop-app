@@ -8,7 +8,6 @@ services:
   database:
     build: 
        context: ./database
-    image: atsea_db
     user: postgres
     environment:
       POSTGRES_USER: gordonuser
@@ -25,7 +24,6 @@ services:
     build:
        context: app
        dockerfile: Dockerfile
-    image: atsea_app
     user: gordon
     ports:
       - "8080:8080" 
@@ -48,7 +46,6 @@ networks:
   front-tier:
   back-tier:
   payment:
-    driver: overlay
 
 secrets:
   postgres_password:
