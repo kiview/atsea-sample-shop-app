@@ -14,7 +14,7 @@
   
   <properties>
     <java.version>1.8</java.version>
-    <h2.version>1.4.187</h2.version>
+    <h2.version>2.0.206</h2.version>
   </properties>
 
   <dependencies>
@@ -26,7 +26,7 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-core</artifactId>
-    <version>4.3.9.RELEASE</version>
+    <version>5.2.19.RELEASE</version>
 </dependency>
     <!-- Add freemarker template support -->
     <dependency>
